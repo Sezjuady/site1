@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Gutsius</title>
+    <title>IFC</title>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 	<link href="../css/style.css" rel="stylesheet">
 
@@ -14,7 +14,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="../index.html">Спортивное питание</a>
+                <a class="navbar-brand" href="../index.html">Косметика</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
@@ -36,16 +36,37 @@
 		        <div class="row">
 
             <div class="col-md-3">
-                <p class="lead">Бренд спортивного питания Gutsius</p>
+                <p class="lead">Косметика IFC</p>
             </div>
 
             <div class="col-md-9">        
 
-                <div class="row">
+                <section id="contact">
+    <h2>Связаться с нами</h2>
+    <p>Мы всегда готовы ответить на ваши вопросы и помочь вам. Вы можете связаться с нами по следующим контактным данным:</p>
 
-                    <p>Если вас не устроило качество продукта или остались вопросы, обращайтесь по номеру +7(800) 555-55-35</p>
+    <div class="contact-info">
+        <p><strong>Адрес:</strong> 123 улица Красоты, Городовище, Страна</p>
+        <p><strong>Телефон:</strong> +123-456-7890</p>
+        <p><strong>Электронная почта:</strong> <a href="mailto:info@ifc.com">info@ifc.com</a></p>
+    </div>
 
-                </div>
+    <div class="contact-form">
+        <h3>Напишите нам</h3>
+        <form action="submit_form.php" method="post">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Ваша почта:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Ваше сообщение:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</section>
 
             </div>
 
