@@ -87,7 +87,7 @@ $(document).ready(function() {
 			<input readonly class="product0"></input>
 			<input readonly class="amount0"></input>
 			</div>`)
-			$('.product0').val("Протеин");
+			$('.product0').val("Уход за кожей");
 			$('.amount0').val(cart[i]);
 					break;
 
@@ -99,7 +99,7 @@ $(document).ready(function() {
 			<input readonly class="product1"></input>
 			<input readonly class="amount1"></input>
 			</div>`)
-			$('.product1').val("BCAA 4:1:1");
+			$('.product1').val("Основа под макияж");
 			$('.amount1').val(cart[i]);
 					break;
 		
@@ -111,7 +111,7 @@ $(document).ready(function() {
 			<input readonly class="product2"></input>
 			<input readonly class="amount2"></input>
 			</div>`)
-			$('.product2').val("Гейнер");
+			$('.product2').val("Тушь");
 			$('.amount2').val(cart[i]);
 					break;
 			
@@ -123,7 +123,7 @@ $(document).ready(function() {
 			<input readonly class="product3"></input>
 			<input readonly class="amount3"></input>
 			</div>`)
-			$('.product3').val("Креатин моногидрат");
+			$('.product3').val("Палетка теней");
 			$('.amount3').val(cart[i]);
 					break;
 			
@@ -135,7 +135,7 @@ $(document).ready(function() {
 			<input readonly class="product4"></input>
 			<input readonly class="amount4"></input>
 			</div>`)
-			$('.product4').val("Козеин");
+			$('.product4').val("Помада");
 			$('.amount4').val(cart[i]);
 					break;
 
